@@ -7,4 +7,7 @@ export default defineConfig({
   esbuild: {
     target: "esnext", // ou spécifie des navigateurs supportant top-level await
   },
+  build: {
+    outDir: "build", // Spécifie le répertoire de sortie
+  },
 });
