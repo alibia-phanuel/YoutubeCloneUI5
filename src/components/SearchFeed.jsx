@@ -1,7 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import { useState, useEffect } from "react";
 import { Videos } from "./";
-import { fetchFromAPI } from "../utils/fetchFromAPI.JS";
+import { fetchFromAPI } from "../utils/fetchFromAPI.js";
 import { useParams } from "react-router-dom";
 
 const SearchFeed = () => {
